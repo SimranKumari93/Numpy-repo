@@ -81,3 +81,20 @@ newarr = arr[filter_arr]
 
 print(filter_arr)
 print(newarr)
+
+# d = {'A': 'python', 'B': 'Java'}
+
+# #getting items 
+# items = d.items()
+
+# d['C'] = 'C++'
+
+# print(items)
+
+d = {'A': 'python', 'C': 'kubernets', 'B': 'Jira'}
+
+myd = list(d.keys()) # convert dict into list
+myd.sort()
+
+sd = {i: d[i] for i in myd} # sorted dictionary 
+print(sd)
